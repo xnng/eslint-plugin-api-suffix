@@ -1,0 +1,36 @@
+{
+  "name": "@xnng/eslint-plugin-api-suffix",
+  "version": "1.0.3",
+  "description": "ESLint 插件：强制要求 API 函数名以 Api 结尾",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "api",
+    "suffix"
+  ],
+  "author": "xnng",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/eslint": "^8.44.9",
+    "@types/estree": "^1.0.5",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.10.5",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.0.0"
+  }
+}
