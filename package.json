@@ -1,6 +1,6 @@
 {
   "name": "@xnng/eslint-plugin-api-suffix",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint 插件：强制要求 API 函数名以 Api 结尾",
   "main": "lib/index.js",
   "files": [

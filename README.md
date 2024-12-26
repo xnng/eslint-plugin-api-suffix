@@ -85,6 +85,26 @@ export function getUserApi() {
 2. 检查函数返回值中是否包含 `url` 属性
 3. 如果包含 `url` 属性，则要求函数名必须以 `Api` 结尾
 
+## 高级配置
+
+### 指定生效目录
+
+如果你只想让规则在特定目录下生效，比如只在 `api` 目录下生效，可以使用 `overrides` 配置：
+
+```json
+{
+  "overrides": [
+    {
+      "files": ["**/api/**/*.{js,ts}"],
+      "plugins": ["@xnng/api-suffix"],
+      "rules": {
+        "@xnng/api-suffix/require-api-suffix": "warn"
+      }
+    }
+  ]
+}
+```
+
 ## License
 
 MIT
