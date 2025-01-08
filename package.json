@@ -1,6 +1,6 @@
 {
   "name": "@xnng/eslint-plugin-api-suffix",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ESLint 插件：强制要求 API 函数名以 Api 结尾",
   "main": "lib/index.js",
   "files": [
@@ -34,5 +34,13 @@
   },
   "peerDependencies": {
     "eslint": ">=7.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xnng/eslint-plugin-api-suffix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xnng/eslint-plugin-api-suffix/issues"
+  },
+  "homepage": "https://github.com/xnng/eslint-plugin-api-suffix#readme"
 }
